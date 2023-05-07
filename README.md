@@ -4,19 +4,21 @@
 - 呼叫coindesk api: `GET   /api/callCoindesk`
 - 查詢幣別: `GET   /api/currencies/name`
 - 新增幣別: `POST   /api/currencies`
-```
-{
-    "name": "CNY",
-    "chineseName": "人民幣",
-    "rateFloat": 4.43
-}
-```
+	- Body (JSON):
+	```
+	{
+	    "name": "CNY",
+	    "chineseName": "人民幣",
+	    "rateFloat": 4.43
+	}
+	```
 - 修改幣別: `PATCH   /api/currencies/name`
-```
-{
-    "rateFloat": 5.43
-}
-```
+	- Body (JSON):
+	```
+	{
+	    "rateFloat": 5.43
+	}
+	```
 - 新增幣別: `DELETE   /api/currencies`
 
 ## Unit Tests (/test/java/com/danielliao/coindesk_api)
