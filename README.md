@@ -19,7 +19,7 @@
 	    "rateFloat": 5.43
 	}
 	```
-- 新增幣別: `DELETE   /api/currencies`
+- 刪除幣別: `DELETE   /api/currencies`
 
 ## Unit Tests (/test/java/com/danielliao/coindesk_api)
 - CoindeskApiTest.java:
